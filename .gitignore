@@ -1,0 +1,48 @@
+# --- OS / IDE Junk ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+*.code-workspace
+.directory
+
+# --- KiCad: Temporary & Backup Files ---
+**/KiCad/*.000
+**/KiCad/*.bak
+**/KiCad/*.bck
+**/KiCad/*.kicad_pcb-bak
+**/KiCad/*.kicad_sch-bak
+**/KiCad/*.kicad_prl
+**/KiCad/*-backups/
+**/KiCad/_autosave-*
+**/KiCad/*.tmp
+**/KiCad/fp-info-cache
+**/KiCad/~*.lck
+
+# --- KiCad: Connectivity & Netlists ---
+**/KiCad/*.net
+**/KiCad/*.bus
+**/KiCad/*.xml
+
+# --- KiCad: Local User Preferences ---
+**/KiCad/*.kicad_dru
+**/KiCad/*.kicad_prl
+
+# --- Manufacturing Output ---
+**/KiCad/Gerbers/
+**/KiCad/Output/
+**/KiCad/jlcpcb/
+*.gbr
+*.drl
+*.pos
+*.rpt
+*.csv
+
+# --- Firmware / General Code ---
+**/build/
+**/bin/
+**/obj/
+*.o
+*.out
+*.exe
